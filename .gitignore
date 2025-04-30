@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+rasa_venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore large data files
+*.csv
+*.xlsx
+*.json
+!requirements.txt
+
+# Cache directories
+__pycache__/
+.cache/

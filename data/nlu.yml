@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: sentiment_query
+  examples: |
+    - Show me reviews for [wireless earbuds](product)
+    - What do people think about [Samsung Galaxy](product)?
+    - Are [gaming laptops](product) any good?
+    - Is this [running shoe](product) comfortable?
+    - Find sentiment about [iPhone 13](product)
+    - What's the rating for [Sony headphones](product)?
+    - How do customers feel about the [Kindle Paperwhite](product)?
+    - Show me opinions on [standing desks](product)
+    - What are the reviews saying about [Dyson vacuum](product)?
+    - Find customer sentiment for [Dell XPS](product)
+
+- intent: product_search
+  examples: |
+    - I need [budget gaming laptops](product)
+    - Find me [wireless earbuds](product) under $100
+    - Recommend [running shoes](product) for marathon training
+    - Show [smartphones](product) with good battery life
+    - Looking for [laptops](product) for video editing
+    - Find [kitchen gadgets](product) for small apartments
+    - I want to see [outdoor furniture](product) options
+    - Search for [cameras](product) with 4K video
+    - Show me [bluetooth speakers](product) with long battery life
+    - Find [coffee makers](product) with timers
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
